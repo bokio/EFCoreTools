@@ -1,0 +1,16 @@
+﻿using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
+using System;
+
+namespace Bokio.Core.Migrations
+{
+    public partial class $$MIGRATIONNAME$$ : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            $$UP_CONTENT$$
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder){ } // We only go forward
+    }
+}
